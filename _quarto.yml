@@ -1,0 +1,11 @@
+project:
+  output-dir: docs/
+
+format: 
+  revealjs:
+    theme: simple
+  beamer: 
+    aspectratio: 169
+
+
+    
