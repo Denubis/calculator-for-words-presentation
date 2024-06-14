@@ -18,7 +18,6 @@ bibliography: references.bib
 - Why is the metaphor a problem?
 - Why continue this discussion?
 
-
 ## Aim
 
 How do we communicate the affordances of these tools to people we are teaching, communicating with, and writing policy for in such a way that they avoid error-prone patterns of use?
@@ -38,17 +37,28 @@ How do we communicate the affordances of these tools to people we are teaching, 
 > One of the most pervasive mistakes I see people using with large language model tools like ChatGPT is trying to use them as a search engine. ... I like to think of language models like ChatGPT as a calculator for words. ... Want them to work with specific facts? Paste those into the language model as part of your original prompt! [@willison_think_2023]
 
 
-## Unreliability
+## Unreliability of LLMs
 
 This quote moves the locus of control to the user's perspective:
 
-* Their input is primary, isntead of the 'creative' output of the machine
+* Their input is primary, instead of the 'creative' output of the machine
 * A specific method of grounding inputs to reduce confabulation
 * Mapping to prior affordances that users are expecting
 
-## ???
+## Not a database
 
-TODO
+* There are fundamental problems with the affordances of generative AI systems.
+  * They look like search engines, and return answers.
+  * They look like people chatting, and return conversation.
+
+**THESE THINGS ARE LIES-TO-USERS**
+
+How do we cut through the false metaphors of the interface and the stories-of-AI?
+
+## An attitude towards facts
+
+
+Calculators for words: they set up an expectation of *setup* when using these tools.
 
 
 # Against 'Calculators for words'
@@ -62,7 +72,7 @@ TODO
 
 ## Far too literal 
 
-
+* This is a bad metaphor for the *use* of these tools.
 * We agree that the opacity of the function of a neural net is deeply problematic, for all sorts of reasons. 
 * But that these things, qua tools, represent an instance of an exocortex that is in direct continuation of the line of computing machines from those which work by pure analogy to those which are online.
 
@@ -70,19 +80,74 @@ TODO
 
 * Calcualtors are not AI. 
 
-## Actual issue
-
-
 
 # Discussion
 
-## The pragmatics of experience
+## The limits of metaphor
 
-> When I speak in front of groups and ask them to raise their hands if they used the free version of ChatGPT, almost every hand goes up. When I ask the same group how many use GPT-4, almost no one raises their hand. I increasingly think the decision of OpenAI to make the ``bad'' AI free is causing people to miss why AI seems like such a huge deal to a minority of people that use advanced systems and elicits a shrug from everyone else. [@mollick_opinionated_2023]
+* Calculator for words is an excellent cautionary metaphor. 
+* It attacks the idea of LLMs as search engines, as things with an indexical relationship to a database of facts. 
+* It suggests that if we do not provide the tool sufficient inputs, it cannot provide useful outputs. And it is correct insofar as that metaphor extends. 
 
-## Haraway's Cyborgs
+## Utility
 
-## Epistimology engines
+The issue becomes that of utility:
+
+* How should we use this tool, and what metaphors are metaphors-for rather than metaphors-against. 
+* Bocci is correct in attacking calculators for words as a metaphor, not only for reliability, but because it suggests too much understanding – we have insufficient fear of these black boxes.
+
+## A possible replacement
+
+**A large language model is a map with no territory.**
+
+Borrowing from Borges:
+
+* The map-territory distinction
+* Using "map" suggests sign, and no-territory suggests removal of sign-referent
+
+## Traces on maps
+
+* "Training" an LLM: 
+  * it stores the representations of the statistical relationships between tokens.
+  * In our map-metaphor, we can call them **traces**. 
+* The relationships stored in the model's weights are a map with no territory. 
+
+**A trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user.**
+
+## Technique
+
+* We propose that the skill of using these tools, the core of the technique, is that of navigating between infinite maps.
+* An LLM produces tokens based on weighted likeihood of all preceeding tokens in the context window. An effective metaphor establishes how a user can popualte the context window so that the path of least perplexity is the path with the output they desire. 
+* To communicate this, the idea of *navigation* exists, such that there is always a starting point (Simon's calculator input), and then decisions leading to an output (Bocci's refutation)
+
+Traces!
+
+Selection which elevates it to meaning
+
+**The effective metaphor of prompting, is that of navigating these infinite maps.**
+
+## The requirements of expertise
+
+Why a librarian? 
+
+* The person interacting, to derive utility, needs to have certain kinds of skills.
+  * The ability to set up the initial conditions such that it is possible to succeed (technique with tool). 
+  * A fundamental awareness of the subject matter (much like a reference librarian) -- enough to recognise and refute bullshit.
+  * The ability to curate the responses through these inifnite maps.
+
+
+It is the user's responsibility to accept (or, more commonly) reject the output of the tool, based on their capabilities, knowledge, and expertise.
+
+
+## Conclusion
+
+> How do we communicate the affordances of these tools to people we are teaching, communicating with, and writing policy for in such a way that they avoid error-prone patterns of use?
+
+* We say that a metaphor that is more apt than "a calculator for words" is "a map with no territory." 
+* LLM manipulate tokens: signs divorced from referent. They present infinite maps with traces from many territories. 
+* A successful user can use these traces to develop effective mental models of the tool, enhance their techniques, and have more realistic desired objectives. 
+
+Those focusing on the tools themselves, or hoping that the generative AI services which wrap and present these LLMs to end-users will handle map-conversions, miss the map for a lack of territory.
 
 
 
