@@ -12,6 +12,10 @@ bibliography: references.bib
 
 [@babbage_passages_1864]
 
+::: {.notes}
+Speaker notes go here.
+:::
+
 ## Motivation
 
 - Why are we here?
