@@ -123,7 +123,7 @@
     "href": "calculators-for-words.html#traces-on-maps",
     "title": "Is the ‘Calculator for Words’ analogy useful for communicating about LLMs?",
     "section": "Traces on maps",
-    "text": "Traces on maps\n\n“Training” an LLM:\n\nit stores the representations of the statistical relationships between tokens.\nIn our map-metaphor, we can call them traces.\n\nThe relationships stored in the model’s weights are a map with no territory.\n\nA trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user."
+    "text": "Traces on maps\n\n“Training” an LLM:\n\nit stores the representations of the statistical relationships between tokens.\nIn our map-metaphor, we can call them traces.\n\nThe relationships stored in the model’s weights are a map of no territory.\n\nA trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user."
   },
   {
     "objectID": "calculators-for-words.html#llms-as-maps-of-no-territory",

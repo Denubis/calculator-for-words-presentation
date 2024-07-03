@@ -173,7 +173,7 @@ Comprehensibility:
 * "Training" an LLM: 
   * it stores the representations of the statistical relationships between tokens.
   * In our map-metaphor, we can call them **traces**. 
-* The relationships stored in the model's weights are a map with no territory. 
+* The relationships stored in the model's weights are a map of no territory. 
 
 **A trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user.**
 
