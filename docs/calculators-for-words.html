@@ -8,11 +8,11 @@
 <link href="calculators-for-words_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="calculators-for-words_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="calculators-for-words_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.5.43">
 
   <meta name="author" content="Dr Brian Ballsun-Stanton">
-  <meta name="author" content="Dr Inês Hipolito">
-  <title>Is the `Calculator for Words’ metaphor useful for communicating about LLMs?</title>
+  <meta name="author" content="Dr Inês Hipólito">
+  <title>Is the ‘Calculator for Words’ analogy useful for communicating about LLMs?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -347,47 +347,84 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Is the `Calculator for Words’ metaphor useful for communicating about LLMs?</h1>
+  <h1 class="title">Is the ‘Calculator for Words’ analogy useful for communicating about LLMs?</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr Brian Ballsun-Stanton 
+Dr Brian Ballsun-Stanton <a href="https://orcid.org/0000-0003-4932-7912" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
+<div class="quarto-title-author-email">
+<a href="mailto:brian.ballsun-stanton@mq.edu.au">brian.ballsun-stanton@mq.edu.au</a>
 </div>
+        <p class="quarto-title-affiliation">
+            Macquarie University
+          </p>
+    </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr Inês Hipolito 
+Dr Inês Hipólito <a href="https://orcid.org/0000-0001-6351-9975" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
+<div class="quarto-title-author-email">
+<a href="mailto:ines.hipolito@mq.edu.au">ines.hipolito@mq.edu.au</a>
 </div>
+        <p class="quarto-title-affiliation">
+            Macquarie University
+          </p>
+    </div>
 </div>
 
 </section>
-<section id="this-is-not-a-new-problem" class="slide level2">
-<h2>This is not a new problem</h2>
-<blockquote>
-<p>Pray, Mr.&nbsp;Babbage, if you put into the machine wrong figures, will the right answers come out?</p>
-</blockquote>
-<p><span class="citation" data-cites="babbage_passages_1864">(<a href="#/bibilography" role="doc-biblioref" onclick="">Babbage 1864</a>)</span></p>
-</section>
-<section id="motivation" class="slide level2">
-<h2>Motivation</h2>
+<section id="this-paper-is-available-as-a-preprint" class="slide level2">
+<h2>This paper is available as a preprint</h2>
+<p>Feedback would be <em>delightful</em>.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Images/calcwordspreprint.png"></p>
+<figcaption>doi.org/10.5281/zenodo.12602858</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
 <ul>
-<li>Why are we here?</li>
-<li>Why is the metaphor a problem?</li>
-<li>Why continue this discussion?</li>
+<li>This presentation is CC-BY.</li>
+<li>Code available at https://github.com/Denubis/calculator-for-words-presentation</li>
+<li>Presentation available at: https://denubis.github.io/calculator-for-words-presentation/</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="understanding-the-capabilities-of-technology-is-not-a-new-problem" class="slide level2">
+<h2>Understanding the capabilities of technology is not a new problem</h2>
+<blockquote>
+<p>Pray, Mr.&nbsp;Babbage, if you put into the machine wrong figures, will the right answers come out? <span class="citation" data-cites="babbage_passages_1864">(<a href="#/references" role="doc-biblioref" onclick="">Babbage 1864</a>)</span></p>
+</blockquote>
+<div class="fragment">
+<h3 id="for-an-llm-the-answer-is-yes.">For an LLM: the answer is <strong>YES</strong>.</h3>
+<blockquote>
+<p>Large language models (LLMs) are fundamentally different from search engines, functioning more as ‘vibe-machines’ than information retrieval systems. <span class="citation" data-cites="ballsun_stanton_2024_12602858">(<a href="#/references" role="doc-biblioref" onclick="">Ballsun-Stanton and Hipólito 2024</a>)</span></p>
+</blockquote>
+</div>
+</section>
+<section id="motivation-and-aim" class="slide level2">
+<h2>Motivation and Aim</h2>
+<ul>
+<li>Why are we here: The need for effective LLM comprehension.</li>
+<li>Is the ‘calculator for words’ analogy the most effective one?</li>
+<li>How do we teach, communicate, and write policy about these tools without effective analogies to communicate their major capabilities and limitations?</li>
 </ul>
 </section>
-<section id="aim" class="slide level2">
-<h2>Aim</h2>
-<p>How do we communicate the affordances of these tools to people we are teaching, communicating with, and writing policy for in such a way that they avoid error-prone patterns of use?</p>
+<section id="our-goal" class="slide level2">
+<h2>Our goal</h2>
+<p>Find an effective analogy to communicate LLM affordances to avoid error-prone usage patterns.</p>
 </section>
 <section id="the-problem" class="slide level2">
-<h2>The problem</h2>
+<h2>The Problem</h2>
 <ul>
-<li>We have too many stories about “AI”</li>
-<li>They respond using “I”</li>
-<li>People see the tools through skeuomorphic lenses, rather than understanding the limitations and capabilities of the technologies themselves.</li>
+<li>Too many conflicting stories about “AI”</li>
+<li>Anthropomorphization: They respond using “I”</li>
+<li>Skeuomorphic lenses vs.&nbsp;understanding true limitations and capabilities</li>
 </ul>
 </section>
 <section>
@@ -395,24 +432,40 @@ Dr Inês Hipolito
 <h1>For ‘Calculators for words’</h1>
 
 </section>
-<section id="willison-on-how-to-think-about-llms" class="slide level2">
-<h2>Willison on how to think about LLMs</h2>
+<section id="willison-on-llms" class="slide level2">
+<h2>Willison on LLMs</h2>
 <blockquote>
-<p>One of the most pervasive mistakes I see people using with large language model tools like ChatGPT is trying to use them as a search engine. … I like to think of language models like ChatGPT as a calculator for words. … Want them to work with specific facts? Paste those into the language model as part of your original prompt! <span class="citation" data-cites="willison_think_2023">(<a href="#/bibilography" role="doc-biblioref" onclick="">Willison 2023</a>)</span></p>
+<p>One of the most pervasive mistakes I see people using with large language model tools like ChatGPT is trying to use them as a search engine. … I like to think of language models like ChatGPT as a calculator for words. … Want them to work with specific facts? Paste those into the language model as part of your original prompt! <span class="citation" data-cites="willison_think_2023">(<a href="#/references" role="doc-biblioref" onclick="">Willison 2023</a>)</span></p>
 </blockquote>
 </section>
-<section id="unreliability" class="slide level2">
-<h2>Unreliability</h2>
-<p>This quote moves the locus of control to the user’s perspective:</p>
+<section id="unreliability-and-locus-of-control" class="slide level2 incremental">
+<h2>Unreliability and Locus of Control</h2>
+<p>The analogy ‘calculator for words’:</p>
 <ul>
-<li>Their input is primary, isntead of the ‘creative’ output of the machine</li>
-<li>A specific method of grounding inputs to reduce confabulation</li>
-<li>Mapping to prior affordances that users are expecting</li>
+<li>Moves locus of control to the user’s perspective</li>
+<li>User input is primary, not the ‘creative’ output of the machine</li>
+<li>Grounding inputs to reduce confabulation</li>
+<li>Maps to prior affordances users expect</li>
 </ul>
 </section>
-<section id="section" class="slide level2">
-<h2>???</h2>
-<p>TODO</p>
+<section id="difficulty-of-effective-use" class="slide level2">
+<h2>Difficulty of Effective Use</h2>
+<ul>
+<li>Using LLMs effectively is deceptively difficult</li>
+<li>Requires building an accurate mental model of capabilities and limitations</li>
+<li>Users need to spend time with LLMs to understand their potential and pitfalls</li>
+</ul>
+</section>
+<section id="llms-vs.-search-engines" class="slide level2 smaller">
+<h2>LLMs vs.&nbsp;Search Engines</h2>
+<p>Argument 2.1 (Modus ponens) <span class="citation" data-cites="ballsun_stanton_2024_12602858">(<a href="#/references" role="doc-biblioref" onclick="">Ballsun-Stanton and Hipólito 2024</a>)</span>:</p>
+<p>P1. If an AI system lacks inherent intentional agency in its core operation (token inference) and its outputs are primarily bounded by human-defined service layers, then it is fundamentally different from search engines that link to <strong>intentionally created content</strong>.</p>
+<div class="fragment">
+<p>P2. LLMs <strong>lack inherent intentional agency</strong> in their core operation (token inference), and their outputs are primarily determined by human-defined service layers (system prompts and post-hoc interactions applied to token inference).</p>
+</div>
+<div class="fragment">
+<p>C. Therefore, LLMs are fundamentally different from search engines that link to intentionally created content.</p>
+</div>
 </section></section>
 <section>
 <section id="against-calculators-for-words" class="title-slide slide level1 center">
@@ -420,58 +473,153 @@ Dr Inês Hipolito
 
 </section>
 <section id="buccis-response" class="slide level2">
-<h2>Bucci’s response</h2>
+<h2>Bucci’s Response</h2>
 <blockquote>
-<p>To put it differently, a calculator has a well-defined, well-scoped set of use cases, a well-defined, well-scoped user interface, and a set of well-understood and expected behaviors that occur in response to manipulations of that interface. … Large language models, when used to drive chatbots or similar interactive text-generation systems, have none of those qualities. They have an open-ended set of unspecified use cases.</p>
+<p>To put it differently, a calculator has a well-defined, well-scoped set of use cases, a well-defined, well-scoped user interface, and a set of well-understood and expected behaviors that occur in response to manipulations of that interface. … Large language models, when used to drive chatbots or similar interactive text-generation systems, have none of those qualities. They have an open-ended set of unspecified use cases. <span class="citation" data-cites="bucci_word_2023">(<a href="#/references" role="doc-biblioref" onclick="">Bucci 2023</a>)</span></p>
 </blockquote>
-<p><span class="citation" data-cites="bucci_word_2023">(<a href="#/bibilography" role="doc-biblioref" onclick="">Bucci 2023</a>)</span></p>
 </section>
-<section id="far-too-literal" class="slide level2">
-<h2>Far too literal</h2>
+<section id="determinism-and-affordances" class="slide level2 incremental">
+<h2>Determinism and Affordances</h2>
+<p>Theorem 3.1 <span class="citation" data-cites="ballsun_stanton_2024_12602858">(<a href="#/references" role="doc-biblioref" onclick="">Ballsun-Stanton and Hipólito 2024</a>)</span>:</p>
+<p>A calculator, upon receiving invalid input, will give the user an error. A LLM, upon receiving invalid input, will give the user a valid response.</p>
 <ul>
-<li>We agree that the opacity of the function of a neural net is deeply problematic, for all sorts of reasons.</li>
-<li>But that these things, qua tools, represent an instance of an exocortex that is in direct continuation of the line of computing machines from those which work by pure analogy to those which are online.</li>
+<li>LLMs lack the deterministic nature of calculators</li>
+<li>The interface of LLMs is deceptively simple, hiding complex and often unpredictable behavior</li>
+<li>Affordances of LLMs are vastly different from those of calculators</li>
 </ul>
 </section>
-<section id="more-skeuomorphic-literalism" class="slide level2">
-<h2>More skeuomorphic literalism</h2>
+<section id="chatgpt-is-bullshit-and-appropriateness-of-use" class="slide level2 incremental">
+<h2>“ChatGPT is Bullshit” and Appropriateness of Use</h2>
 <ul>
-<li>Calcualtors are not AI.</li>
+<li>LLMs generate text without adherence to an underlying reality <span class="citation" data-cites="hicks_chatgpt_2024">(<a href="#/references" role="doc-biblioref" onclick="">Hicks, Humphries, and Slater 2024</a>)</span></li>
+<li>Output is a stream of tokens with the highest statistical likelihood, appearing as coherent thought</li>
+<li>Unlike calculators, which have clear appropriate use cases, LLMs’ appropriate applications are still being defined</li>
+<li><strong>Therefore:</strong> The analogy fails to capture the open-ended nature of LLM interactions and outputs</li>
 </ul>
-</section>
-<section id="actual-issue" class="slide level2">
-<h2>Actual issue</h2>
 </section></section>
 <section>
 <section id="discussion" class="title-slide slide level1 center">
 <h1>Discussion</h1>
 
 </section>
-<section id="the-pragmatics-of-experience" class="slide level2">
-<h2>The pragmatics of experience</h2>
+<section id="the-pragmatics-of-experience" class="slide level2 smaller">
+<h2>The Pragmatics of Experience</h2>
 <blockquote>
-<p>When I speak in front of groups and ask them to raise their hands if they used the free version of ChatGPT, almost every hand goes up. When I ask the same group how many use GPT-4, almost no one raises their hand. I increasingly think the decision of OpenAI to make the ``bad’’ AI free is causing people to miss why AI seems like such a huge deal to a minority of people that use advanced systems and elicits a shrug from everyone else. <span class="citation" data-cites="mollick_opinionated_2023">(<a href="#/bibilography" role="doc-biblioref" onclick="">Mollick 2023</a>)</span></p>
+<p>When I speak in front of groups and ask them to raise their hands if they used the free version of ChatGPT, almost every hand goes up. When I ask the same group how many use GPT-4, almost no one raises their hand. I increasingly think the decision of OpenAI to make the “bad” AI free is causing people to miss why AI seems like such a huge deal to a minority of people that use advanced systems and elicits a shrug from everyone else. <span class="citation" data-cites="mollick_opinionated_2023">(<a href="#/references" role="doc-biblioref" onclick="">Mollick 2023</a>)</span></p>
+</blockquote>
+<ul>
+<li>The gap in user experience between different LLM versions affects perception and understanding</li>
+<li>This disparity influences how we communicate about and conceptualize LLMs</li>
+</ul>
+</section>
+<section id="evaluating-the-calculator-for-words-analogy" class="slide level2">
+<h2>Evaluating the ‘Calculator for Words’ Analogy</h2>
+<p>Intuitions:</p>
+<ul>
+<li>The analogy falls apart on deeper inspection</li>
+<li>Lacks useful ontological or epistemological similarities with LLMs</li>
+</ul>
+</section>
+<section id="evaluating-the-calculator-for-words-analogy-1" class="slide level2">
+<h2>Evaluating the ‘Calculator for Words’ Analogy</h2>
+<p>Pedagogical utility:</p>
+<ul>
+<li>Useful for teaching attention to context window and token inference</li>
+<li>Helps adjust audiences’ epistemic orientation to LLM interfaces</li>
+</ul>
+</section>
+<section id="evaluating-the-calculator-for-words-analogy-2" class="slide level2">
+<h2>Evaluating the ‘Calculator for Words’ Analogy</h2>
+<p>Comprehensibility:</p>
+<ul>
+<li>Requires specific interpretation to be useful</li>
+<li>May lead to misunderstandings if taken too literally</li>
+</ul>
+</section></section>
+<section>
+<section id="maps-of-no-territory" class="title-slide slide level1 center">
+<h1>Maps of No Territory</h1>
+
+</section>
+<section id="maps-of-no-territory-a-new-analogy" class="slide level2 smaller">
+<h2>Maps of No Territory: A New Analogy</h2>
+<ul>
+<li>Inspired by Borges’ “On Exactitude in Science” <span class="citation" data-cites="borges_collected_1998">(<a href="#/references" role="doc-biblioref" onclick="">Borges and Hurley 1998</a>)</span></li>
+<li>LLMs as maps without a corresponding territory</li>
+<li>Aims to provide more nuanced intuitions for general audiences</li>
+</ul>
+<blockquote>
+<p>LLMs, as our proposed map-analogues, generate language based on statistical relationships learned from vast amounts of text, creating abstract representations of language patterns and structures. <span class="citation" data-cites="ballsun_stanton_2024_12602858">(<a href="#/references" role="doc-biblioref" onclick="">Ballsun-Stanton and Hipólito 2024</a>)</span></p>
 </blockquote>
 </section>
-<section id="haraways-cyborgs" class="slide level2">
-<h2>Haraway’s Cyborgs</h2>
+<section id="llms-as-maps-of-no-territory" class="slide level2">
+<h2>LLMs as Maps of No Territory</h2>
+<p>Argument 5.1 (Modus ponens) <span class="citation" data-cites="ballsun_stanton_2024_12602858">(<a href="#/references" role="doc-biblioref" onclick="">Ballsun-Stanton and Hipólito 2024</a>)</span>:</p>
+<p>P1. If LLMs generate language based on abstract representations without direct access to real-world referents, then LLMs are like maps of no territory.</p>
+<div class="fragment">
+<p>P2. LLMs generate language based on abstract representations without direct access to real-world referents.</p>
+</div>
+<div class="fragment">
+<p>C. Therefore, LLMs are like maps of no territory.</p>
+</div>
 </section>
-<section id="epistimology-engines" class="slide level2">
-<h2>Epistimology engines</h2>
+<section id="effective-interaction-and-navigation" class="slide level2">
+<h2>Effective Interaction and Navigation</h2>
+<ul>
+<li>Interacting with LLMs is like being a librarian in Borges’ Infinite Library</li>
+<li>Requires skillful navigation to find meaningful content</li>
+<li>Three levels of (mental) mapping:
+<ol type="1">
+<li>Expertise Map: User’s foundational understanding</li>
+<li>Incomplete but Sufficient Map: Framework for effective engagement</li>
+<li>Map of a Map of no Territory: Abstract representations within the LLM</li>
+</ol></li>
+</ul>
 </section>
-<section id="bibilography" class="slide level2 smaller scrollable">
-<h2>Bibilography</h2>
+<section id="conclusion" class="slide level2 smaller">
+<h2>Conclusion</h2>
+<ul>
+<li>The ‘calculator for words’ analogy serves as an effective negative heuristic
+<ul>
+<li>Discourages treating LLMs as search engines or fact repositories</li>
+<li>Falls short in providing positive intuition for effective LLM utilization</li>
+</ul></li>
+<li>‘Maps of no territory’ offers a more comprehensive understanding
+<ul>
+<li>Captures the nature, capabilities, and limitations of LLMs</li>
+<li>Encourages more informed and responsible engagement</li>
+</ul></li>
+<li>Effective use of LLMs requires:
+<ol type="1">
+<li>Skillful interpretation of traces provided by LLM interaction</li>
+<li>Developing a framework for effective engagement</li>
+<li>Understanding that outputs reflect training data, not direct representations of reality</li>
+</ol></li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 <div class="quarto-auto-generated-content">
+<p><img src="Images/MQ_INT_HOR_RGB_POS.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>https://doi.org/10.5281/zenodo.12602858 • © 2024, License: CC-BY • https://denubis.github.io/calculator-for-words-presentation/</p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-babbage_passages_1864" class="csl-entry" role="listitem">
 Babbage, Charles. 1864. <span>“Passages from the <span>Life</span> of a <span>Philosopher</span>.”</span> <a href="https://www.gutenberg.org/files/57532/57532-h/57532-h.htm">https://www.gutenberg.org/files/57532/57532-h/57532-h.htm</a>.
 </div>
+<div id="ref-ballsun_stanton_2024_12602858" class="csl-entry" role="listitem">
+Ballsun-Stanton, Brian, and Inês Hipólito. 2024. <span>“<span class="nocase">Is the ’Calculator for Words’ analogy useful for communicating about LLMs?</span>”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.12602858">https://doi.org/10.5281/zenodo.12602858</a>.
+</div>
+<div id="ref-borges_collected_1998" class="csl-entry" role="listitem">
+Borges, Jorge Luis, and Andrew Hurley. 1998. <em>Collected Fictions</em>. Penguin <span>Classics</span> <span>Deluxe</span> <span>Edition</span>. New York, NY: Penguin Books.
+</div>
 <div id="ref-bucci_word_2023" class="csl-entry" role="listitem">
 Bucci, Anthony. 2023. <span>“Word Calculators Don’t Add Up.”</span> <a href="https://bucci.onl/notes/Word-calculators-dont-add-up">https://bucci.onl/notes/Word-calculators-dont-add-up</a>.
+</div>
+<div id="ref-hicks_chatgpt_2024" class="csl-entry" role="listitem">
+Hicks, Michael Townsen, James Humphries, and Joe Slater. 2024. <span>“<span>ChatGPT</span> Is Bullshit.”</span> <em>Ethics and Information Technology</em> 26 (2): 38. <a href="https://doi.org/10.1007/s10676-024-09775-5">https://doi.org/10.1007/s10676-024-09775-5</a>.
 </div>
 <div id="ref-mollick_opinionated_2023" class="csl-entry" role="listitem">
 Mollick, Ethan. 2023. <span>“An <span>Opinionated</span> <span>Guide</span> to <span>Which</span> <span>AI</span> to <span>Use</span>: <span>ChatGPT</span> <span>Anniversary</span> <span>Edition</span>.”</span> <a href="https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai">https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai</a>.
@@ -723,18 +871,7 @@ Willison, Simon. 2023. <span>“Think of Language Models Like <span>ChatGPT</spa
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -766,7 +903,47 @@ Willison, Simon. 2023. <span>“Think of Language Models Like <span>ChatGPT</spa
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -803,7 +980,11 @@ Willison, Simon. 2023. <span>“Think of Language Models Like <span>ChatGPT</spa
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
