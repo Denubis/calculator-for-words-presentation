@@ -1,5 +1,6 @@
 ---
 title: Calculator for Words Presentation, IACAP 2024 Eugene, OR
+format: html
 ---
 
 * [Preprint](https://zenodo.org/records/12602858)
