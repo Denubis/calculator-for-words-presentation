@@ -1,5 +1,5 @@
-project:
-  output-dir: docs/
+# project:
+#   output-dir: docs/
 
 format: 
   revealjs:

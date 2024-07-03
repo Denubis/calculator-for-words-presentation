@@ -171,6 +171,17 @@ Comprehensibility:
 
 > LLMs, as our proposed map-analogues, generate language based on statistical relationships learned from vast amounts of text, creating abstract representations of language patterns and structures. [@ballsun_stanton_2024_12602858]
 
+
+## Traces on maps
+
+* "Training" an LLM: 
+  * it stores the representations of the statistical relationships between tokens.
+  * In our map-metaphor, we can call them **traces**. 
+* The relationships stored in the model's weights are a map with no territory. 
+
+**A trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user.**
+
+
 ## LLMs as Maps of No Territory
 
 Argument 5.1 (Modus ponens) [@ballsun_stanton_2024_12602858]:

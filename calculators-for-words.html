@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="presentation_files/libs/clipboard/clipboard.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tabby.min.js"></script>
-<script src="presentation_files/libs/quarto-html/popper.min.js"></script>
-<script src="presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="presentation_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="presentation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="calculators-for-words_files/libs/clipboard/clipboard.min.js"></script>
+<script src="calculators-for-words_files/libs/quarto-html/tabby.min.js"></script>
+<script src="calculators-for-words_files/libs/quarto-html/popper.min.js"></script>
+<script src="calculators-for-words_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="calculators-for-words_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="calculators-for-words_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="calculators-for-words_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="calculators-for-words_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.550">
 
-  <meta name="author" content="John Doe">
-  <title>Habits</title>
+  <meta name="author" content="Dr Brian Ballsun-Stanton">
+  <meta name="author" content="Dr Inês Hipolito">
+  <title>Is the `Calculator for Words’ metaphor useful for communicating about LLMs?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="calculators-for-words_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="calculators-for-words_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,12 +30,32 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="presentation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="calculators-for-words_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="calculators-for-words_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="calculators-for-words_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="calculators-for-words_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="calculators-for-words_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -326,57 +347,219 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Habits</h1>
+  <h1 class="title">Is the `Calculator for Words’ metaphor useful for communicating about LLMs?</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-John Doe 
+Dr Brian Ballsun-Stanton 
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr Inês Hipolito 
 </div>
 </div>
 </div>
 
 </section>
-<section>
-<section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
-
+<section id="this-is-not-a-new-problem" class="slide level2">
+<h2>This is not a new problem</h2>
+<blockquote>
+<p>Pray, Mr.&nbsp;Babbage, if you put into the machine wrong figures, will the right answers come out?</p>
+</blockquote>
+<p><span class="citation" data-cites="babbage_passages_1864">(<a href="#/bibilography" role="doc-biblioref" onclick="">Babbage 1864</a>)</span></p>
+<aside class="notes">
+<p>Speaker notes go here.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="getting-up" class="slide level2">
-<h2>Getting up</h2>
+<section id="motivation" class="slide level2">
+<h2>Motivation</h2>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
+<li>Why are we here?</li>
+<li>Why is the metaphor a problem?</li>
+<li>Why continue this discussion?</li>
+<li>bla bla XXX</li>
 </ul>
 </section>
-<section id="breakfast" class="slide level2">
-<h2>Breakfast</h2>
+<section id="aim" class="slide level2">
+<h2>Aim</h2>
+<p>How do we communicate the affordances of these tools to people we are teaching, communicating with, and writing policy for in such a way that they avoid error-prone patterns of use?</p>
+</section>
+<section id="the-problem" class="slide level2">
+<h2>The problem</h2>
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li>We have too many stories about “AI”</li>
+<li>They respond using “I”</li>
+<li>People see the tools through skeuomorphic lenses, rather than understanding the limitations and capabilities of the technologies themselves.</li>
+</ul>
+</section>
+<section>
+<section id="for-calculators-for-words" class="title-slide slide level1 center">
+<h1>For ‘Calculators for words’</h1>
+
+</section>
+<section id="willison-on-how-to-think-about-llms" class="slide level2">
+<h2>Willison on how to think about LLMs</h2>
+<blockquote>
+<p>One of the most pervasive mistakes I see people using with large language model tools like ChatGPT is trying to use them as a search engine. … I like to think of language models like ChatGPT as a calculator for words. … Want them to work with specific facts? Paste those into the language model as part of your original prompt! <span class="citation" data-cites="willison_think_2023">(<a href="#/bibilography" role="doc-biblioref" onclick="">Willison 2023</a>)</span></p>
+</blockquote>
+</section>
+<section id="unreliability-of-llms" class="slide level2">
+<h2>Unreliability of LLMs</h2>
+<p>This quote moves the locus of control to the user’s perspective:</p>
+<ul>
+<li>Their input is primary, instead of the ‘creative’ output of the machine</li>
+<li>A specific method of grounding inputs to reduce confabulation</li>
+<li>Mapping to prior affordances that users are expecting</li>
+</ul>
+</section>
+<section id="not-a-database" class="slide level2">
+<h2>Not a database</h2>
+<ul>
+<li>There are fundamental problems with the affordances of generative AI systems.
+<ul>
+<li>They look like search engines, and return answers.</li>
+<li>They look like people chatting, and return conversation.</li>
+</ul></li>
+</ul>
+<p><strong>THESE THINGS ARE LIES-TO-USERS</strong></p>
+<p>How do we cut through the false metaphors of the interface and the stories-of-AI?</p>
+</section>
+<section id="an-attitude-towards-facts" class="slide level2">
+<h2>An attitude towards facts</h2>
+<p>Calculators for words: they set up an expectation of <em>setup</em> when using these tools.</p>
+</section></section>
+<section>
+<section id="against-calculators-for-words" class="title-slide slide level1 center">
+<h1>Against ‘Calculators for words’</h1>
+
+</section>
+<section id="buccis-response" class="slide level2">
+<h2>Bucci’s response</h2>
+<blockquote>
+<p>To put it differently, a calculator has a well-defined, well-scoped set of use cases, a well-defined, well-scoped user interface, and a set of well-understood and expected behaviors that occur in response to manipulations of that interface. … Large language models, when used to drive chatbots or similar interactive text-generation systems, have none of those qualities. They have an open-ended set of unspecified use cases.</p>
+</blockquote>
+<p><span class="citation" data-cites="bucci_word_2023">(<a href="#/bibilography" role="doc-biblioref" onclick="">Bucci 2023</a>)</span></p>
+</section>
+<section id="far-too-literal" class="slide level2">
+<h2>Far too literal</h2>
+<ul>
+<li>This is a bad metaphor for the <em>use</em> of these tools.</li>
+<li>We agree that the opacity of the function of a neural net is deeply problematic, for all sorts of reasons.</li>
+<li>But that these things, qua tools, represent an instance of an exocortex that is in direct continuation of the line of computing machines from those which work by pure analogy to those which are online.</li>
+</ul>
+</section>
+<section id="more-skeuomorphic-literalism" class="slide level2">
+<h2>More skeuomorphic literalism</h2>
+<ul>
+<li>Calcualtors are not AI.</li>
 </ul>
 </section></section>
 <section>
-<section id="in-the-evening" class="title-slide slide level1 center">
-<h1>In the evening</h1>
+<section id="discussion" class="title-slide slide level1 center">
+<h1>Discussion</h1>
 
 </section>
-<section id="dinner" class="slide level2">
-<h2>Dinner</h2>
+<section id="the-limits-of-metaphor" class="slide level2">
+<h2>The limits of metaphor</h2>
 <ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
+<li>Calculator for words is an excellent cautionary metaphor.</li>
+<li>It attacks the idea of LLMs as search engines, as things with an indexical relationship to a database of facts.</li>
+<li>It suggests that if we do not provide the tool sufficient inputs, it cannot provide useful outputs. And it is correct insofar as that metaphor extends.</li>
 </ul>
 </section>
-<section id="going-to-sleep" class="slide level2">
-<h2>Going to sleep</h2>
+<section id="utility" class="slide level2">
+<h2>Utility</h2>
+<p>The issue becomes that of utility:</p>
 <ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
+<li>How should we use this tool, and what metaphors are metaphors-for rather than metaphors-against.</li>
+<li>Bocci is correct in attacking calculators for words as a metaphor, not only for reliability, but because it suggests too much understanding – we have insufficient fear of these black boxes.</li>
 </ul>
+</section>
+<section id="a-possible-replacement" class="slide level2">
+<h2>A possible replacement</h2>
+<p><strong>A large language model is a map with no territory.</strong></p>
+<p>Borrowing from Borges:</p>
+<ul>
+<li>The map-territory distinction</li>
+<li>Using “map” suggests sign, and no-territory suggests removal of sign-referent</li>
+</ul>
+</section>
+<section id="traces-on-maps" class="slide level2">
+<h2>Traces on maps</h2>
+<ul>
+<li>“Training” an LLM:
+<ul>
+<li>it stores the representations of the statistical relationships between tokens.</li>
+<li>In our map-metaphor, we can call them <strong>traces</strong>.</li>
+</ul></li>
+<li>The relationships stored in the model’s weights are a map with no territory.</li>
+</ul>
+<p><strong>A trace is a correspondence of a sign/token output by an LLM which has a referent useful to the user.</strong></p>
+</section>
+<section id="technique" class="slide level2">
+<h2>Technique</h2>
+<ul>
+<li>We propose that the skill of using these tools, the core of the technique, is that of navigating between infinite maps.</li>
+<li>An LLM produces tokens based on weighted likeihood of all preceeding tokens in the context window. An effective metaphor establishes how a user can popualte the context window so that the path of least perplexity is the path with the output they desire.</li>
+<li>To communicate this, the idea of <em>navigation</em> exists, such that there is always a starting point (Simon’s calculator input), and then decisions leading to an output (Bocci’s refutation)</li>
+</ul>
+<p>Traces!</p>
+<p>Selection which elevates it to meaning</p>
+<p><strong>The effective metaphor of prompting, is that of navigating these infinite maps.</strong></p>
+</section>
+<section id="the-requirements-of-expertise" class="slide level2">
+<h2>The requirements of expertise</h2>
+<p>Why a librarian?</p>
+<ul>
+<li>The person interacting, to derive utility, needs to have certain kinds of skills.
+<ul>
+<li>The ability to set up the initial conditions such that it is possible to succeed (technique with tool).</li>
+<li>A fundamental awareness of the subject matter (much like a reference librarian) – enough to recognise and refute bullshit.</li>
+<li>The ability to curate the responses through these inifnite maps.</li>
+</ul></li>
+</ul>
+<p>It is the user’s responsibility to accept (or, more commonly) reject the output of the tool, based on their capabilities, knowledge, and expertise.</p>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<blockquote>
+<p>How do we communicate the affordances of these tools to people we are teaching, communicating with, and writing policy for in such a way that they avoid error-prone patterns of use?</p>
+</blockquote>
+<ul>
+<li>We say that a metaphor that is more apt than “a calculator for words” is “a map with no territory.”</li>
+<li>LLM manipulate tokens: signs divorced from referent. They present infinite maps with traces from many territories.</li>
+<li>A successful user can use these traces to develop effective mental models of the tool, enhance their techniques, and have more realistic desired objectives.</li>
+</ul>
+<p>Those focusing on the tools themselves, or hoping that the generative AI services which wrap and present these LLMs to end-users will handle map-conversions, miss the map for a lack of territory.</p>
+</section>
+<section id="bibilography" class="slide level2 smaller scrollable">
+<h2>Bibilography</h2>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-babbage_passages_1864" class="csl-entry" role="listitem">
+Babbage, Charles. 1864. <span>“Passages from the <span>Life</span> of a <span>Philosopher</span>.”</span> <a href="https://www.gutenberg.org/files/57532/57532-h/57532-h.htm">https://www.gutenberg.org/files/57532/57532-h/57532-h.htm</a>.
+</div>
+<div id="ref-bucci_word_2023" class="csl-entry" role="listitem">
+Bucci, Anthony. 2023. <span>“Word Calculators Don’t Add Up.”</span> <a href="https://bucci.onl/notes/Word-calculators-dont-add-up">https://bucci.onl/notes/Word-calculators-dont-add-up</a>.
+</div>
+<div id="ref-willison_think_2023" class="csl-entry" role="listitem">
+Willison, Simon. 2023. <span>“Think of Language Models Like <span>ChatGPT</span> as a <span>‘Calculator for Words’</span>.”</span> <em>Simon Willison’s Weblog</em>. <a href="https://simonwillison.net/2023/Apr/2/calculator-for-words/">https://simonwillison.net/2023/Apr/2/calculator-for-words/</a>.
 </div>
 </div>
 </section></section>
@@ -384,19 +567,19 @@ John Doe
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="presentation_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="presentation_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="presentation_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="calculators-for-words_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
